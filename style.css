@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    justify-content: center; /*Envia el contenido al centr*/
+    align-items: center; /*centra el texto*/
+    flex-direction: column; /*distribuye el contenido en columna*/
+    background-color: #3C5B6F; /*asigna el color al fondo*/
+}
+h1 {
+        color:aqua;
+}
+
+h2 {
+    color: #FFEC9E;
+}
+h3 {
+    color: #BACD92;
+}
+p {
+    color: whitesmoke;
+    padding-left: 3%; /*sangra a la derecha en un 15%*/
+    padding-right: 3%; /*sangria a la izquierda en un 15%*/
+    text-align: justify; /*Justifica el texto*/
+}
+.container {
+    max-width: 720px;
+}
+span {
+    color: aqua;
+    border: 1px solid #22d4fd;
+    padding: 10px;
+    /*Encierra el texto en un recuadro con las caracteristicas asignadas*/
+}
+.destacar {
+    color: #BACD92; /*Clase que destaca los subtitulo, que estan en la etiqueta strong*/
+}
